@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int a = 5;
+    int *p = &a;
+       // cout<<a;
+       // cout<<&a;
+       // cout<<*a;
+       // cout<<p;
+       // cout<<&p;
+        cout<<*p;
+
+         cout<<sizeof(p);
+   //int *p = 0;
+   cout<<*p;
+    return 0;
+}
